@@ -1,0 +1,273 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #333;
+}
+
+.navbar {
+  display: flex;
+  background-color: #ECEFF1;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.nav-links-left, .nav-links-right {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links-left {
+  background-color: #008080;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.nav-links-left li a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-links-right {
+  margin-left: auto;
+}
+
+.login-btn, .get-started-btn {
+  padding: 10px 20px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  background-color: #ccc;
+  border-radius: 10px;
+}
+
+.login-btn {
+  background-color: white;
+  border: 1px solid #008080;
+  color: black;
+}
+
+.get-started-btn {
+  background-color: #008080;
+}
+
+.logo img {
+  height: 40px;
+  margin-right: 20px;
+}
+
+.hero-section {
+  background-color: #ECEFF1;
+  text-align: center;
+  padding: 60px 60px;
+  size: 20;
+}
+
+.hero-section h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero-section p {
+  font-size: 18px;
+  margin-bottom: 40px;
+  color: #555;
+}
+
+.track-package {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.track-package input {
+  padding: 10px;
+  width: 300px; 
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+.track-package button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #008080;
+  color: white;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.features-section {
+  background-color: #fff;
+  padding: 60px 20px;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.feature-card {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: left; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.feature-card-content {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.feature-card img {
+  width: 50px;
+  margin-right: 10px;
+}
+
+.feature-card h3 {
+  font-size: 18px;
+  margin: 0; 
+}
+
+.feature-card p {
+  font-size: 14px;
+  color: #555;
+  margin-top: 10px;
+}
+.get-started-section {
+  background-image: url('public/images/bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 60px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 600px; 
+  position: relative;
+  color: white; 
+}
+
+.get-started-section .container {
+  position: relative;
+  z-index: 2;
+}
+
+.get-started-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+}
+
+.get-started-section h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.get-started-section .get-started-btn {
+  padding: 10px 20px;
+  border: none;
+  background-color: #008080;
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+  border-radius: 5px;
+  z-index: 2;
+}
+.footer {
+  background-color: #008080;
+  color: white;
+  align-items: center;
+  padding: 80px 80px;
+}
+
+.footer .container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.footer-left {
+  max-width: 300px;
+  flex: 1;
+  margin-right: 20px;
+}
+
+.footer-right {
+  display: flex;
+  gap: 20px; 
+}
+
+.footer-links,
+.footer-company {
+  margin-left: 0; 
+  flex: 1; 
+}
+
+
+.footer h3,
+.footer h4 {
+  margin-bottom: 10px;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer ul li {
+  margin-bottom: 8px;
+}
+
+.footer ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.social-icons {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.social-icons img {
+  width: 30px;
+}
+
+hr {
+  border-color: rgba(255, 255, 255, 0.3);
+  margin: 20px 0;
+}
+
+.footer-bottom {
+  text-align: center;
+  font-size: 14px;
+}
+
+.footer-bottom p {
+  margin: 0;
+}

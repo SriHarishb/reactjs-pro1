@@ -24,7 +24,7 @@ export default function LoginPage() {
             <input type="password" placeholder="Password" required />
           </div>
           <div className="actions">
-            <a href="/reset-password" className="reset-password-link">Reset Password</a>
+            <a href="/ResetPage" className="reset-password-link">Reset Password</a>
           </div>
           <button type="submit" className="login-button">Log In</button>
         </form>
